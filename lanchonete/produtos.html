@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanchonete</title></title>
+    <link rel="stylesheet" href="aparencia.css">
+    <link rel="shortcut icon" href="img/outline_restaurant_black_48dp.png" type="image/x-icon">
+    <script src="pedido.js"></script>
+</head>
+<body>
+    <nav id="menu" style="overflow-x: auto;">
+        <img  src="img/burguinho.gif" alt="lanche" width="150px">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="produtos.html">PRODUCTS</a></li>
+            <li><a href="pedido.html">REQUESTS</a></li>
+            <li><a href="contato.html">CONTACT</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+        
+        </ul>
+        <img src="img/burguinho.gif" alt="lanche" id="img2" width="150px">
+    </nav>
+    <h1>Lanchonete T57</h1>
+    <h2>Faça seu Pedido</h2>
+
+    <div id="cardapio">
+        <div id="itemC">
+            <h3>Coxinha</h3>
+            <P>CÓDIGO 001</P>
+            <img src="img/coxenha.jpg">
+            <p>Coxinha de flango</p>
+            <h1>R$ 2,99</h1>
+            <button onclick="pedido()" id="">Comprar</button>
+        </div>
+        <div id="itemC">
+            <h3>Cheddar Duplo</h3>
+            <P>CÓDIGO 002</P>
+            <img src="img/cheddar.jpg">
+            <p>Burger com Muito Cheddar</p>
+            <h1>R$ 49,99</h1>
+            <button onclick="pedido()">Comprar</button>
+        </div>
+        <div id="itemC">
+            <h3>Chicken Burger</h3>
+            <P>CÓDIGO 003</P>
+            <img src="img/chicken.jpg">
+            <p>O Milhor do Flango fih</p>
+            <h1>R$ 56,99</h1>
+            <button onclick="pedido()">Comprar</button>
+        </div>
+        <div id="itemC">
+            <h3>Burgao da Casa</h3>
+            <P>CÓDIGO 004</P>
+            <img src="img/burgao.jpg">
+            <p>O Mais Gostoso</p>
+            <h1>R$ 66,99</h1>
+            <button onclick="pedido()">Comprar</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
